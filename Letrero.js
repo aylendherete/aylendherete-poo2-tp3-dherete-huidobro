@@ -1,7 +1,8 @@
+
 function Letrero(){
     
     this.estado=function(posicion){
-        return "Apagado";
+        return posicion.estadoActual;
     }
 }
 module.exports=Letrero;
