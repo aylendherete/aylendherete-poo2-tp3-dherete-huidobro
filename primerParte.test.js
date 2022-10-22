@@ -1,5 +1,5 @@
-const Letrero=require('../Letrero');
+const Letrero=require('./Letrero');
 test("Letrero apagado", ()=>{
-    const letrero=new Letrero();
+    var letrero=new Letrero();
     expect(letrero.estado(posicion)).toBe("Apagado");
 })
